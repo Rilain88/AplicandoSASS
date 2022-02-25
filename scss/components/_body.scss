@@ -1,0 +1,16 @@
+@import '../base/variables';
+
+body{
+      background-image: $bg-image;
+      background-size: cover;
+      background-attachment:fixed;
+}
+
+body{
+  @media screen and (max-width: 480px){
+    
+        background: $bg-media;
+        background-size: cover;
+        background-attachment:fixed;
+  }
+}

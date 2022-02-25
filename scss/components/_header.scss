@@ -1,0 +1,17 @@
+@import '../base/variables';
+
+header{
+    nav{
+        div.container-fluid{
+                background: $bg-color;
+                border: $border;
+                flex-basis: 100%;
+                display: flex;
+                justify-content: space-around;
+                font-family: 'Dancing Script', cursive;
+                font-size: 30px;
+            }
+            
+        }
+}
+

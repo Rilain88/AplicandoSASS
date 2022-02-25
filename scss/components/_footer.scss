@@ -1,0 +1,17 @@
+@import '../base/variables';
+
+footer{
+    div.footer{
+        display:flex;
+        justify-content: center;
+        background: $bg-footer;
+        min-width: 30px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width: 480px){
+        min-width: 30px;
+        padding: 5px;
+        margin-top: 4000px ;
+    }
+}

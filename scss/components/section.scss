@@ -1,0 +1,100 @@
+
+
+
+section.logo{
+      padding: 20px;
+      display: flex;
+      border-radius: 100%;
+      justify-content: center;
+          a{
+            img{
+                width: 150px;
+                border-radius: 100%;
+                border: 2px solid rgb(173, 94, 49);
+               }
+        }
+}
+
+section{
+    div{
+        div.carousel-inner{
+            width: 70%;
+            margin: auto;
+            background: linear-gradient(to bottom , rgb(238, 213, 140), rgb(194, 115, 70) );
+            border: 2px solid rgb(173, 94, 49);
+            padding: 10px;
+
+        }
+    }
+}
+
+section.photo-container{
+      padding: 30px;
+      font-family: 'Dancing Script', cursive;
+  
+    div.grid-container{
+        display: grid;
+        grid-template-rows: repeat(5 , 250px);
+        grid-template-columns: repeat(3 , 250px);
+        justify-content: center; 
+            img{
+            width: 200px;
+            border: 4px solid rgb(173, 94, 49);
+            transition-property: all;
+            transition-duration: 1.5s;
+            &:hover{
+                transform: scale(1.4);
+            }
+        }
+        @media screen and (max-width: 480px){
+              height: 600px;
+              display: grid;
+              flex-basis: 50%;
+              grid-template-columns: repeat(1, 50%);
+              grid-template-rows: repeat(15,50%);
+        }
+    }
+}
+
+
+section{
+    div.promociones-container{
+        margin: auto;
+        padding: 50px;
+        display: flex;
+        justify-content: space-around;
+        
+        img{
+            width: 70px;
+        }
+    }
+}
+
+
+section.encabezado{
+      background: linear-gradient(to bottom , rgb(238, 213, 140), rgb(194, 115, 70) );
+      padding: 30px;
+      margin: 20px;
+      border: 2px solid rgb(173, 94, 49);
+      justify-content: space-around;
+  
+    img{
+        width: 150px;
+        border: 4px solid rgb(173, 94, 49);
+    
+    }
+}
+
+
+section.navegable{
+    padding: 50px;
+    div.iconos-container{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 100px;
+        }
+    }
+}
+
+
